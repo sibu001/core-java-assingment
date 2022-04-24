@@ -1,0 +1,79 @@
+                                                                                                             Exception Handling in Java
+
+Q1. What is an Exception in Java?
+ANS-Exception is an event which may disrupt the normal flow of the program.
+ 
+Q2. What is the super or base class of all exceptions in Java?
+ANS- "Throwable" is a super class of all exception in java.
+            
+Q3. What is the super class for error and exception classes in Java?.
+ANS-  "Throwable" is super class of error and exception in java.
+          
+Q4. What are the types of exceptions in Java API? 
+ANS- types of exceptions are=
+        (i) checked                             
+       (ii)  unchecked            
+       
+
+Q5. Why does an exception occur in the program?
+ANS- Exception occur in java due to many reasons such as-
+         (i)  user has entered an invalid data.
+         (ii) file that needs to be opened cannot be found.  
+        
+Q6. What is exception handling in Java?
+ANS- Java Exception Handling is a mechanism to handle runtime errors such as ClassNotFoundException, IOException, SQLException, RemoteException, etc.
+
+Q7. What is exception handler in Java?
+ANS-An exception handler is code that stipulates what a program will do when an anomalous event disrupts the normal flow of that program's instructions.
+
+Q8. What is the advantage of using exception handling in Java? 
+ANS- Advantage of exception handling are-
+     1)  Separating Error Handling Code from "Regular" Code.
+     2)  Propagating Errors  
+     3)  Grouping Error Types 
+
+Q9. Which of the following statements will throw an exception? (WAP)
+       a. System.out.println(1/0);
+       b. System.out.println(2.0/0);
+ANS- (1/0) gives arthimatic exception
+         (2.0/0) gives infinity
+
+Q10. Which exception maybe thrown if the given two code blocks are executed?
+      WAP
+a.
+public class Test
+{
+public static void main(String[] args)
+{
+int[ ] list = new int[4];
+System.out.println(list[4]);
+  }
+}
+b.--------------------------------------------------------------
+public class Test
+{
+public static void main(String[] args)
+{
+int a = 20;
+int b = 30;
+int c = 10;
+int x = (a * b)/(a - b + c);
+System.out.println("Result: " +x);
+  }
+}
+ANS- BLOCK A- it gives ArrayIndexOutOfBoundsException.
+         BLOCK B- it gives arthimatic exception because of 600/0
+
+Q11.Explain the Java exception hierarchy.  
+ANS-      object-------
+12.What does the JVM do when an exception occurs in a program?
+13.How do we catch exceptions?   WAP         
+14.What is throwing an exception in Java? WAP
+15.What is catching an exception in Java? WAP
+16.What will happen to exception object after exception handling is done?             
+17. How will you handle the checked exception? WAP
+             Alternatively, What are the different ways to handle checked exceptions?
+
+
+
+ 

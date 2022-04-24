@@ -1,0 +1,25 @@
+                                                                                   DAY 8 ASSIGNMENT
+
+Q1. WHAT IS ENCAPSULATION?
+ANS. It is a way of wrapping the data and codes together in a single unit.
+
+2. Write a Employee class and make all the fields as private and
+    methods as public. (This is how encapsulation is implemented in
+    Java)
+
+Q3. What are various types of class relationships, explain with example?
+ANS- Various types of class relationship are- INHERITANCE ,ASSOCIATION,AGGREGATION,COMPOSITION
+
+      EX.( inheritance)- it have "IS-A" relationship in which subclass inherit all the properties of parent class except constrctor.
+            (aggregation)- it have "HAS-A" relationship .suppose Employee class has an object of Address,and  address object contains its own informations such as city, state, country etc.
+                                    In such case relationship is Employee HAS-A address.
+
+Q4. What are mutator methods and what are accessor methods. Identity
+     both types of methods in Employee class.
+ANS- Mutator and accessor is nothing but a getter and setter.
+
+5. Work on the remaining star patterns 
+
+
+
+ 

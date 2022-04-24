@@ -1,0 +1,33 @@
+                                                                                                DAY 9
+                                                                                    CLASS AND OBJECT-III
+
+Q1. What are the three types of variables in Java?
+ANS- Three type of variables in java is local,instance and static.
+
+Q2. How many copies of a static variable are kept in the JVM.
+ANS- JVM kept only single copy of variable .which is stored in non-heap memory and memory allocated to static variable during 
+         class loading.
+
+Q3. The requirement is to assign a unique id to each object of the id
+       created. In the Employee class add a static variable “nextId” of type
+       integer. Add a method that increments the “nextId” Now create two or
+       more objects of Employee and print the value of the “id” for each of
+       these objects. Write your observations in the JavaDoc of the class.
+Q4. What is the other name given to static variables? Hint : Class
+       variables?
+ANS- Static variable also known as class variables.
+Q5. Can we change the value of static variables in the instance methods
+       of the class?
+ANS- YES, we can change static variable from a non static method. But vice-versa is not possible.
+
+6. What are the two ways to initialize a static variable. Write a class
+    Hospital, it has an static field “status” which can have values
+   “registered”, “verified” and “certified”. You have to make sure that
+    when the new object is created it’s value should be initialized with
+   “registered”.
+ANS- 
+7. In the above program, use enums for the “status” field.
+8. To access static variables outside of the class from some other class
+you need to use the name of the class like Math.PI etc. Write a
+program to print the Math.PI and Math.E etc.
+ANS-
